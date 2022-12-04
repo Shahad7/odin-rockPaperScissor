@@ -52,7 +52,7 @@ let playRound = (playerSelection,computerSelection) => {
 }
 let check = ()=>{
     if(user>pc)
-            result = "Damn! You Won That's Not Very Shahza-like :)";
+            result = "Damn! You Won That's Not Very Shahza-like  :)";
             else if(pc>user)
                 result = "Computer Cheetheya :(";
             else
