@@ -52,9 +52,9 @@ let playRound = (playerSelection,computerSelection) => {
 }
 let check = ()=>{
     if(user>pc)
-            result = "YOU WON!";
+            result = "Damn! You Won That's Not Very Shahza-like :)";
             else if(pc>user)
-                result = "GAME OVER!";
+                result = "Computer Cheetheya :(";
             else
                 result = "DRAW!";
             flag=1;
