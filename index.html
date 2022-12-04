@@ -2,9 +2,43 @@
 <html lang="en">
     <head>
         <title>odin - rock paper scissors!</title>
+        <style>
+            .buttons{
+                display: flex;
+                justify-content: space-evenly;
+                height:300px;
+                align-items: center;
+        
+            }
+            button{
+                height:100px;
+                width:200px;
+                border : solid 2px gold;
+                border-radius: 25px;
+                background-color:khaki;
+            }
+            .scoreboard{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                gap:10px;
+                font-size: 30px;
+            }
+        </style>
+        <script src="script.js" defer></script>
     </head>
     <body>
-        <script src="script.js"></script>
-        <h1>Rock Paper Scissors!</h1>
+        
+        <h2 style="text-align:center;color:darkred;background-color: khaki;">Rock Paper Scissors!</h2>
+        <div class="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissor">Scissor</button></div>
+        <div class="scoreboard">
+            <div class="computerChoice"></div>
+            <div class="player"></div>
+            <div class="computer"></div>
+        </div>
+        
     </body>
 </html>
